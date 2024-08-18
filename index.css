@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+}
+.container nav {
+  background-color: transparent;
+  padding: 20px 0;
+}
+.navbar a {
+  font-size: 1.35rem;
+  margin-right: 10px;
+}
+.row {
+  padding: 6% 0;
+  color: white;
+}
+.hello {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 4.8rem;
+    line-height: 84px;
+}
+.sub-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+.pc-image {
+  width: 80%;
+}
+.name {
+  color: rgb(221, 255, 0);
+}
+@media (min-width: 667px) and (max-width: 991px){
+  .second-row {
+    padding-top: 15%;
+  }
+  .heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 84px;
+}
+  .pc-image {
+    width: 100%;
+  }
+}
+@media (max-width: 667px){
+  .heading {
+    font-size: 4rem;
+}
+  
+}
+/* about-me page */
+.about {
+  padding-right: 20%;
+}
+.contact-btn {
+  margin: 10px 10px;
+}
+.human-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.about h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 4.8rem;
+    line-height: 84px;
+    color: yellow;
+}
+@media (max-width: 991px){
+  .image-cont {
+    display: none;
+  }
+  .about {
+    padding-right: 0;
+  }
+}
+/* projects page*/
+.card {
+  background-color: transparent;
+  color: white;
+  width: 80%;
+}
+.card-img-top {
+  height: 250px;
+  border-radius: 5px;
+}
+.card h5 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 84px;
+    color: yellow;
+}
+.card p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+/* Contact me page*/
+#contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10% 0;
+}
+#contact-me h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 4.2rem;
+    color: white;
+    margin-bottom: 10%;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+.contact a {
+  border: none;
+}
+/* footer */
+.footer {
+  text-align: center;
+  color: white;
+}
+
